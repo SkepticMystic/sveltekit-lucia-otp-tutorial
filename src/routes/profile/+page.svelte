@@ -9,6 +9,7 @@
   <!-- Here we have access to the data returned by auth.transformUserData -->
   <p>User id: {$user?.userId}</p>
   <p>Email: {$user?.email}</p>
+  <p>Email Verified: {$user?.emailVerified}</p>
 {:else}
   <p>Not signed in</p>
 {/if}
